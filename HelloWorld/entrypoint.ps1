@@ -1,1 +1,1 @@
-Write-Host $args[0]
+Write-Host 'Hello World'
