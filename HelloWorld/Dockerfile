@@ -1,9 +1,9 @@
-FROM mcr.microsoft.com/powershell:ubuntu-16.04
+FROM mcr.microsoft.com/powershell:ubuntu-18.04
 
 LABEL "com.github.actions.name"="Hello World"
 LABEL "com.github.actions.description"="Write arguments to the standard output"
-LABEL "com.github.actions.icon"="mic"
-LABEL "com.github.actions.color"="purple"
+LABEL "com.github.actions.icon"="terminal"
+LABEL "com.github.actions.color"="blue"
 
 LABEL "repository"="https://github.com/Windos/Deeds"
 LABEL "homepage"="https://github.com/Windos/Deeds"
