@@ -5,5 +5,5 @@ workflow "New workflow" {
 
 action "Hello World" {
   uses = "./HelloWorld"
-  args = "Hello World"
+  args = "[\"GITHUB_SHA\"]"
 }
