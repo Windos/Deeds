@@ -1,1 +1,2 @@
-Write-Host "The commit sha was: $($args[0])"
+Write-Host "The commit sha was: $GITHUB_SHA
+Write-Host "Your first argument was: $($args[0])"
