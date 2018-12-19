@@ -1,3 +1,1 @@
-#!/usr/bin/pwsh
-
-Write-Host 'Hello World'
+Write-Host $args[0]
