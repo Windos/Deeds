@@ -1,1 +1,1 @@
-Write-Host $args[0]
+Write-Host "The commit sha was: $($args[0])"
