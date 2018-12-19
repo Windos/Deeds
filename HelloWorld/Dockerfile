@@ -10,4 +10,6 @@ LABEL "homepage"="https://github.com/Windos/Deeds"
 LABEL "maintainer"="Josh King (@WindosNZ)"
 
 ADD entrypoint.ps1 /entrypoint.ps1
+RUN chmod +x /entrypoint.ps1
+
 ENTRYPOINT ["/entrypoint.ps1"]
